@@ -5,7 +5,11 @@ This is an example plugin for [BVE Trainsim][1], in a MinGW project. It is only
 a scaffolding for other, more complicated plugins to build upon, this is only a
 "hello, world".
 
-This has been tested against BVE 4.2.1947.25355 and Windows XP (x86). 
+It includes an example in C++ using [the official header][3], and an example in
+simple C with a custom header that follows closely the official one.
+`atsplugin_c.h` is free for anyone to use in their plugins.
+
+This has been tested against BVE 4.2.1947.25355 and Windows XP (x86).
 
 For more information on the BVE API, see [the developer documentation][2] on the
 official website.
